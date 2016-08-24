@@ -1,0 +1,15 @@
+# python
+*.pyc
+
+# django
+*.log
+
+
+# idea - PyCharm
+.idea/*
+
+# Mac
+.DS_Store
+
+
+
