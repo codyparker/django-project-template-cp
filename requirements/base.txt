@@ -1,1 +1,11 @@
 Django==1.9
+Pillow
+django-compressor
+django-recaptcha
+sorl-thumbnail
+pytz
+
+# DB
+#MySQL-python >= 1.2.5
+#psycopg2 >= 2.6.2
+
