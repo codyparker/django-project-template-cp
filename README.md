@@ -21,7 +21,7 @@ To start a new project with this template, run:
 
 Django requires a secret key in the settings file. This template expects an environment variable of DJANGO_SECRET_KEY to run. You can generate a good one here: http://www.miniwebtool.com/django-secret-key-generator/
 
-Once you have one, you can add it to the environment variables in Linux/Mac with ``export DJANGO_SECRET_KEY=your_generated_key``
+Once you have one, you can add it to the environment variables in Linux/Mac with ``export DJANGO_SECRET_KEY=your_generated_key``.
 If using PyCharm, you can set it in your run configuration or settings to make it easy.
 
 Alternatively, you can replace ``SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')`` in the base_settings.py file with ``SECRET_KEY = your_generated_key``
@@ -30,5 +30,9 @@ Alternatively, you can replace ``SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY'
 ## Install additional requirements if you like
 
 Other useful apps are already set up in the requirements directory. To install those use:
+
 ``pip install requirements/base.txt``
+
+and for development:
+
 ``pip install requirements/local.txt``
